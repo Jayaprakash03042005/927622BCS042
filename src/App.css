@@ -1,0 +1,102 @@
+body {
+  background: #f5f7fa;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+.app-container, .MuiContainer-root {
+  margin-top: 40px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.07);
+  padding: 32px 24px 24px 24px;
+}
+
+h1, .MuiTypography-h4 {
+  color: #1976d2;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+
+input[type="text"] {
+  width: 70%;
+  padding: 8px;
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+button {
+  padding: 8px 16px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+th {
+  background-color: #f4f4f4;
+}
+
+.error {
+  color: red;
+  margin-top: 10px;
+}
+
+.note {
+  margin-top: 20px;
+  font-size: 12px;
+  color: #666;
+}
+
+.MuiSelect-root, .MuiInputBase-root {
+  background: #f0f4f8;
+  border-radius: 6px;
+}
+
+.MuiPaper-root {
+  background: #f8fafc;
+  border-radius: 10px;
+}
+
+.MuiCircularProgress-root {
+  display: block;
+  margin: 40px auto;
+}
+
+.MuiTable-root, table {
+  width: 100%;
+  margin-top: 24px;
+  border-collapse: collapse;
+}
+
+.MuiTableCell-root, th, td {
+  padding: 10px 16px;
+  border-bottom: 1px solid #e0e0e0;
+  text-align: left;
+}
+
+.MuiTooltip-tooltip {
+  font-size: 1rem;
+}
+
+@media (max-width: 600px) {
+  .app-container, .MuiContainer-root {
+    padding: 12px 4px;
+  }
+  .MuiPaper-root {
+    padding: 8px 2px;
+  }
+}
